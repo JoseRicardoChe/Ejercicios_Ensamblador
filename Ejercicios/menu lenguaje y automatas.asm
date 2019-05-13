@@ -1,7 +1,6 @@
 ;ITSVA
 ;ISC 6B 
 ;Elaborado por: Jose Ricardo Che Cauich
-;Fecha: 3/4/19
 
 .MODEL SMALL  
 
@@ -227,7 +226,7 @@ ENDM
     
     PARTE2:
     MOV AH,05H
-    MOV AL,1
+    MOV AL,2
     INT 10H
     MOV AH,06H
     MOV AL,0
